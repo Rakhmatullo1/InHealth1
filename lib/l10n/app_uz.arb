@@ -1,0 +1,77 @@
+{
+    "hi": "Salom, {name}",
+    "@hi" : {
+        "description": "A message with a single parameter",
+        "placeholders": {
+            "name": {
+              "type": "String",
+              "example": "Bob"
+            }
+          }
+    },
+    "add": "Add",
+    "recipes": "Recipes",
+    "medicines": "Medicines",
+    "dailyMedicines": "Daily Medicine",
+    "toDoList" : "To Do List",
+    "water": "Water",
+    "dailyDrinkTargetOne": "Daily Drink Target: {target}",
+    "@dailyDrinkTargetOne" : {
+        "placeholders": {
+            "target": {
+              "type": "String",
+              "example": "2000 ml"
+            }
+          }
+    },
+    "main": "Main",
+    "map": "Map",
+    "chat" : "Chat",
+    "areYouSure": "Are You Sure?",
+    "cancel": "Cancel",
+    "done": "Done",
+    "editProfile": "Edit Profile",
+    "privacyNPolicy": "Privacy and Policy",
+    "license": "License",
+    "logOut": "Log Out",
+    "loading": "Loading",
+    "welcomeBack": "Welcome Back",
+    "enterUrEmail": "Enter your e-mail",
+    "password": "Password",
+    "placePassword": "Place the password here",
+    "login": "Login",
+    "dontHaveAcc": "Don't have an account yet?",
+    "signUp": "Sign up",
+    "createAcc": "Create an account",
+    "fullName": "Full Name",
+    "enterName": "Enter your name",
+    "atLeast8Char": "At least 8 characters",
+    "bothUppAndLow": "Both uppercase and lowercase characters",
+    "atLeast1Num": "At least one Number",
+    "termAndCon": "By continuing you accept our Privacy Policy and Term of Use",
+    "alreadyHavaAcc" : "Already have an account?",
+    "fillForm": "Fill forms or Tick Box",
+    "somethingWentWrong": "Something went wrong",
+    "setPhoto": "Set Photo",
+    "search": "Search",
+    "myPantry": "My Pantry",
+    "tapHere": "Tap Here →",
+    "pantry": "Pantry",
+    "generate": "Generate",
+    "beforeMeal": "Before Meal",
+    "afterMeal": "After Meal",
+    "duringTheMeal": "During the Meal",
+    "takingWithMeals": "Taking with meals",
+    "dosage": "Times a day",
+    "addSupplement": "Add Supplement",
+    "suppName": "Supplement Name",
+    "typeSuppName": "Type a name of supplement",
+    "tablet": "Tablet",
+    "sachet": "Sachet",
+    "pill": "Pill",
+    "drop": "Drop",
+    "times": "times a day",
+    "dailyDrinkTargetTwo": "Daily Drink Target",
+    "confirm": "Confirm that you have just drunk water",
+    "nextTime": "Next Time"    
+}
