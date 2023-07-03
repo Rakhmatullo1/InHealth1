@@ -67,6 +67,7 @@ class AuthProvider extends ChangeNotifier {
         'password': password,
         'user_pic': userPic
       });
+      print(response.statusCode);
       final data = json.decode(response.body);
       if (data["result"]) {
         _data = {
@@ -85,6 +86,7 @@ class AuthProvider extends ChangeNotifier {
         _error = data["error_info"];
       }
     } catch (err) {
+      print(err);
       rethrow;
     }
     notifyListeners();
@@ -116,6 +118,7 @@ class AuthProvider extends ChangeNotifier {
         _error = data["error_info"];
       }
     } catch (err) {
+      print(err);
       rethrow;
     }
     notifyListeners();

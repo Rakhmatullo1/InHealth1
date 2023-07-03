@@ -39,7 +39,7 @@ class _ChatPageState extends State<ChatPage>
       headers: {
         'Content-Type': 'application/json',
         "Authorization":
-            "Bearer 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"
+            "Bearer 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"
       },
       body: json.encode({
         "model": "text-davinci-003",
